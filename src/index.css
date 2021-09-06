@@ -1,21 +1,86 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
   margin: 0;
-  background-color: #fcf3f6;
 }
-
 h1 {
-  font-size: 2.5rem;
-  color: #2c292b;
+  font-size: 40px;
+  color: #fcf3f6;
+  text-align: left;
+}
+h2 {
+  font-family: "Poppins";
+}
+.logo {
+  float: left;
+}
+.cartoon {
+  position: absolute;
+  right: 15%;
+  display: flex;
+  bottom: 15rem;
+  left: 15%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
 }
 
-h2 {
-  font-size: 1.5rem;
-  color: #2c292b;
+.align-middle {
+  align-items: center;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.img2 {
+  height: 300px;
+  width: auto;
+  margin: 10px;
+  float: right;
+  padding-right: 12rem;
+}
+.img1 {
+  height: 300px;
+  width: auto;
+  margin: 10px;
+  float: right;
+  padding-right: 12rem;
+}
+.img3 {
+  height: 180px;
+  width: auto;
+  margin: 15px;
+  float: right;
+  padding-top: 1rem;
+}
+.text {
+  font-family: "Poppins";
+  text-align: left;
+  line-height: 1.8rem;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: -3rem;
+}
+.micro {
+  font-size: 40px;
+  font-weight: 650;
+  text-align: left;
+}
+.partner {
+  font-weight: 750;
+  font-size: 3rem;
+}
+.india {
+  font-weight: 650;
+  font-size: 40px;
+}
+.winner {
+  font-size: 25px;
+  font-weight: 700;
+}
+.bg {
+  background-size: cover;
 }
